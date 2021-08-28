@@ -457,7 +457,18 @@ textarea.form-control {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-
+.flex-title {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: space-around;
+}
+/* .intro {
+  justify-content: space-between;
+} */
+.intos {
+  width: 300px;
+}
 .hero-area {
   padding: 300px 0 200px;
   position: relative;
