@@ -480,6 +480,19 @@ textarea.form-control {
     overflow: hidden;
   }
 }
+@media (max-width: 375px) {
+  .hero-area {
+    padding: 250px 0 150px;
+    overflow: hidden;
+    
+  }
+  .flex-title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+  }
+}
+
 
 .hero-area h1 {
   position: relative;
